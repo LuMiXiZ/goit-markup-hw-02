@@ -7,13 +7,14 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-ul, ol {
+ul, ol, a {
     list-style-type: none;
+    text-decoration: none;
 }
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
 }
 h2 {
     font-weight: 700;
@@ -26,3 +27,46 @@ h3 {
 
 /* Header styles */
 
+.logo {
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.166;
+    text-transform: uppercase;
+    color: #434455;
+    text-decoration: none;
+}
+.logo span {
+    color: #4D5AE5;
+}
+.nav-item {
+    color: #2e2f42;
+}
+.nav-item:hover, 
+.nav-item:focus {
+    color: #404BBF;
+}
+.nav-item:active {
+    text-decoration: underline;
+}
+.adress-item {
+    color: #434455;
+    font-style: normal;
+}
+.adress-item:hover,
+.adress-item:focus {
+    color: #404BBF;
+}
+
+/* Main styles */
+
+.order-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
