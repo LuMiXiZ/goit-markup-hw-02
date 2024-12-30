@@ -1,9 +1,9 @@
 body {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
 }
@@ -18,29 +18,33 @@ h1 {
 }
 h2 {
     font-weight: 700;
+    line-height: 1.11;
     font-size: 36px;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
 }
 
 /* Header styles */
 
 .logo {
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #434455;
+    color: #4D5AE5;
     text-decoration: none;
 }
 .logo span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .nav-item {
     color: #2e2f42;
+    font-weight: 500;
 }
 .nav-item:hover, 
 .nav-item:focus {
@@ -49,24 +53,72 @@ h3 {
 .nav-item:active {
     text-decoration: underline;
 }
-.adress-item {
-    color: #434455;
+.address-list {
     font-style: normal;
 }
-.adress-item:hover,
-.adress-item:focus {
+.address-item {
+    color: #434455;
+}
+.address-item:hover,
+.address-item:focus {
     color: #404BBF;
 }
 
-/* Main styles */
+/* Top sections styles */
 
+.top-section {
+    background-color: #2e2f42;
+}
+.top-title {
+    text-align: center;
+    color: #ffffff;
+}
 .order-button {
     background-color: #4D5AE5;
     color: #ffffff;
     border: none;
-    padding: 16px 32px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .order-button:hover,
 .order-button:focus {
     background-color: #404BBF;
+}
+
+/* Feature section styles */
+
+.feature-title {
+    color: #2e2f42;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Team section styles */
+
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-card {
+    background-color: #ffffff;
+}
+.team-name {
+    color: #2e2f42;
+}
+
+/* Portfolio section styles */
+
+.portfolio-section {
+    background-color: #ffffff;
+}
+.portfolio-section-name {
+    color: #2E2F42;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: #232f42;
+}
+.footer-text {
+    color: #F4F4FD;
 }
